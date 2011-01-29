@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% if post_list.count %}
+		{% for post in post_list %}
+			{% include "blog/post.html" %}
+		{% endfor %}
+	{% else %}
+		<p>There are no items to display...</p>
+	{% endif %}
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% include "blog/post.html" %}
+	
+	<div class="post">
+		<h2 class="title">Comments</h2>
+
+		{% load comments %}
+		{% get_comment_list for post as comment_list %}
+
+		{% for comment in comment_list %}
+			<p class="meta">Posted by {{ comment.user_name }} on {{ comment.submit_date|date:"F j, Y" }}</p>
+			<div class="entry">
+				{{ comment.comment }}
+			</div>
+		{% endfor %}
+	</div>
+	
+	{% get_comment_form for post as comment_form %}
+	
+	<form id="comment_form" action="{% comment_form_target %}" method="post">  {% csrf_token %}
+	  {{ comment_form }}
+	   	<input type="hidden" name="next" value="{% url single_post slug=post.slug %}" />
+	   	<input type="submit" name="post" class="submit-post" value="Submit">
+	</form>
+	
+{% endblock %}

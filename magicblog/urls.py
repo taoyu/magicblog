@@ -1,7 +1,8 @@
 from django.conf.urls.defaults import *
 from magicblog.views import *
 
-# Uncomment the next two lines to enable the admin:
+from django.conf import settings
+
 from django.contrib import admin
 admin.autodiscover()
 
@@ -15,7 +16,11 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
 
-    (r'^$', static_page, {'template' : 'base'}),
+    (r'^comments/', include('django.contrib.comments.urls')),
+
+    (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root' : settings.STATIC_PATH}),
 
     url(r'^(?P<template>\w+)/$', static_page, name="static_page"),
+
+    (r'^', include("magicblog.blog.urls")),
 )
