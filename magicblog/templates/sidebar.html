@@ -1,5 +1,8 @@
 
 				<div id="sidebar">
+
+					{% load blog_sidebar %}
+
 					<ul>
 						<li>
 							<div id="search" >
@@ -13,40 +16,25 @@
 							<div style="clear: both;">&nbsp;</div>
 						</li>
 						<li>
-							<h2>Aliquam tempus</h2>
-							<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus derit.</p>
+							<h2>magic </h2>
+							<p>magic is now a student in USTC, majored in computer science.</p>
 						</li>
 						<li>
-							<h2>Categories</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-							</ul>
+							{% blog_categories %}
 						</li>
+
+						<li>
+							{% blog_archive %}
+						</li>
+
+						<li>
+							{% blog_tags %}
+						</li>
+
 						<li>
 							<h2>Blogroll</h2>
 							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-							</ul>
-						</li>
-						<li>
-							<h2>Archives</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
+								<li><a href="http://www.colorfulcloud.com/">magic taoyu</a></li>
 							</ul>
 						</li>
 					</ul>

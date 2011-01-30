@@ -1,7 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-	{% include "blog/post.html" %}
+
+
+	<div class="post">
+		<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
+		<p class="meta">{{ post.pub_date|date:"F j, Y" }}</p>
+		<div class="entry">
+			{{ post.body|safe }}
+		</div>
+	</div>
 	
 	<div class="post">
 		<h2 class="title">Comments</h2>
@@ -17,12 +25,15 @@
 		{% endfor %}
 	</div>
 	
-	{% get_comment_form for post as comment_form %}
+	<div class="post"><div class="entry">
+
+		{% get_comment_form for post as comment_form %}
 	
-	<form id="comment_form" action="{% comment_form_target %}" method="post">  {% csrf_token %}
-	  {{ comment_form }}
-	   	<input type="hidden" name="next" value="{% url single_post slug=post.slug %}" />
-	   	<input type="submit" name="post" class="submit-post" value="Submit">
-	</form>
-	
+		<form id="comment_form" action="{% comment_form_target %}" method="post">  {% csrf_token %}
+		  {{ comment_form }}
+		   	<input type="hidden" name="next" value="{% url single_post slug=post.slug %}" />
+		   	<input type="submit" name="post" class="submit-post" value="Submit">
+		</form>
+	</div></div>
+
 {% endblock %}

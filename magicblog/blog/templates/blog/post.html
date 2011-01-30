@@ -4,8 +4,7 @@
 
 <div class="post">
 	<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
-	<p class="meta">Posted on {{ post.published|date:"F j, Y" }}
-		&nbsp;&bull;&nbsp; Comments ({{ comment_count }})</a></p>
+	<p class="meta">{{ post.pub_date|date:"F j, Y" }}</p>
 	<div class="entry">
 		{{ post.body|safe }}
 	</div>

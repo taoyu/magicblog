@@ -3,7 +3,20 @@
 {% block content %}
 	{% if post_list.count %}
 		{% for post in post_list %}
-			{% include "blog/post.html" %}
+
+			{% load comments %}
+
+			{% get_comment_count for post as comment_count %}
+
+			<div class="post">
+				<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
+				<p class="meta"><span class="date">{{ post.pub_date|date:"F j, Y" }}</span></p>
+				<div class="entry">
+					{{ post.excerpt|safe }}
+					<p class="links"><a href="{% url single_post slug=post.slug %}">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Comments ({{ comment_count }})</p>
+				</div>
+			</div>
+
 		{% endfor %}
 	{% else %}
 		<p>There are no items to display...</p>

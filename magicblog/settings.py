@@ -84,7 +84,8 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    rel('templates')
+    rel('templates'),
+    rel('blog/templates'),
 )
 
 INSTALLED_APPS = (
@@ -103,5 +104,7 @@ INSTALLED_APPS = (
     'magicblog.blog',
 )
 
-
+DEFAULT_CHARSET = 'utf-8' 
+DATABASE_OPTIONS = { 'charset': 'utf8', }
+FILE_CHARSET= 'gb18030' 
 STATIC_PATH = rel('static')

@@ -241,10 +241,6 @@ a:hover {
 }
 
 .post .meta .date {
-	float: left;
-}
-
-.post .meta .posted {
 	float: right;
 }
 
@@ -304,10 +300,16 @@ a:hover {
 	font-style: italic;
 }
 
+#sidebar li ul a {
+	padding: 0px 0px 0px 30px;
+}
+
 #sidebar li li a {
 	padding: 0px 0px 0px 15px;
 	background: url(images/img01.jpg) no-repeat left 5px;
 }
+
+
 
 #sidebar h2 {
 	height: 38px;
