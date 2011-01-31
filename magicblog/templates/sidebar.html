@@ -5,17 +5,6 @@
 
 					<ul>
 						<li>
-							<div id="search" >
-								<form method="get" action="#">
-									<div>
-										<input type="text" name="s" id="search-text" value="" />
-										<input type="submit" id="search-submit" value="GO" />
-									</div>
-								</form>
-							</div>
-							<div style="clear: both;">&nbsp;</div>
-						</li>
-						<li>
 							<h2>magic </h2>
 							<p>magic is now a student in USTC, majored in computer science.</p>
 						</li>
@@ -36,6 +25,17 @@
 							<ul>
 								<li><a href="http://www.colorfulcloud.com/">magic taoyu</a></li>
 							</ul>
+						</li>
+						<li>
+							<div id="search" >
+								<form method="get" action="{% url blog_post_search %}">
+									<div>
+										<input type="text" name="s" id="search-text" value="" />
+										<input type="submit" id="search-submit" value="GO" />
+									</div>
+								</form>
+							</div>
+							<div style="clear: both;">&nbsp;</div>
 						</li>
 					</ul>
 				</div>

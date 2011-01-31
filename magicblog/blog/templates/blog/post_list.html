@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-
 {% block content %}
+
+
 	{% if post_list.count %}
 		{% for post in post_list %}
 
@@ -21,4 +22,28 @@
 	{% else %}
 		<p>There are no items to display...</p>
 	{% endif %}
+
+
+<div class="paginate">
+	{% if is_paginated %}
+		<div class="pagination">
+		    <span class="step-links">
+		        {% if page_obj.has_previous %}
+		            <a href="/?page={{ page_obj.previous_page_number }}">Previous</a>
+		        {% endif %}
+		
+		        <span class="current">
+		            Pages {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+		        </span>
+		
+		        {% if page_obj.has_next %}
+		            <a href="/?page={{ page_obj.next_page_number }}">Next</a>
+		        {% endif %}
+		    </span>
+		</div>
+	{% endif %}
+</div>
+
+
+
 {% endblock %}

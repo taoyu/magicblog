@@ -16,6 +16,14 @@ class Tag(models.Model):
 	def __unicode__(self):
 		return self.name
 
+class PostManager(models.Manager):
+    def search(self, search_string):
+        search_string = search_string.strip()
+        
+        queryset = self.get_query_set()
+        return queryset.filter(models.Q(title__icontains=search_string) | models.Q(body__icontains=search_string))
+
+
 class Post(models.Model):
 	author = models.ForeignKey(User, related_name='posts')
 	title = models.CharField(max_length=100)
@@ -27,6 +35,12 @@ class Post(models.Model):
 	up_date = models.DateTimeField("Date Updated", auto_now=True)
 	categories = models.ManyToManyField(Category)
 	tags = models.ManyToManyField(Tag)
+
+	objects = PostManager()
+
+    	@models.permalink
+    	def get_absolute_url(self):
+        	return ('single_post', [self.slug])
 
 	def __unicode__(self):
 		return self.title

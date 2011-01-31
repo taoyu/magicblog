@@ -20,7 +20,7 @@ urlpatterns = patterns('',
 
     (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root' : settings.STATIC_PATH}),
 
-    url(r'^(?P<template>\w+)/$', static_page, name="static_page"),
+
 
     (r'^', include("magicblog.blog.urls")),
 )
