@@ -33,6 +33,7 @@ def blog_post_search(request):
         return blog_generic_view(
             request,
             list_detail.object_list,
+	    queryset = Post.objects.search(s)
         )
     else:
         return render_to_response('blog/invalid_search.html')

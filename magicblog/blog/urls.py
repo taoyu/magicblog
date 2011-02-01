@@ -28,8 +28,8 @@ urlpatterns = patterns('',
         {'redirect_to': list_detail.object_detail, 'slug_field': 'slug', 'paginate': False,}, name="single_post"),
     url(r'^$', blog_generic_view, 
         {'redirect_to': list_detail.object_list}, name="blog_home"),
-    url(r'^archive/(?P<month>[a-z]+)/(?P<year>\d{4})/$', blog_generic_view,
-        {'redirect_to': date_based.archive_month, 'date_field': 'pub_date', 'template_name': 'blog/post_list.html', 'paginate': False,}
+    url(r'^archive/(?P<year>\d{4})/(?P<month>\d{1,2})/$', blog_generic_view,
+        {'redirect_to': date_based.archive_month, 'month_format': '%m', 'date_field': 'pub_date', 'template_name': 'blog/post_list.html', 'paginate': False,}
             , name="blog_posts_by_month"),
     url(r'^category/(\d+)/$', blog_posts_by_category, name="blog_posts_by_category"),
     url(r'^tag/(\d+)/$', blog_posts_by_tag, name="blog_posts_by_tag"),
