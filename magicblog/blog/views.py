@@ -36,3 +36,5 @@ def blog_post_search(request):
         )
     else:
         return render_to_response('blog/invalid_search.html')
+
+

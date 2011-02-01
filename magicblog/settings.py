@@ -114,3 +114,8 @@ DEFAULT_CHARSET = 'utf-8'
 DATABASE_OPTIONS = { 'charset': 'utf8', }
 FILE_CHARSET= 'gb18030' 
 STATIC_PATH = rel('static')
+
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_PASSWORD = "magic1234"
+EMAIL_HOST_USER = "magicblogemail@gmail.com"
+EMAIL_USE_TLS = True
