@@ -33,8 +33,8 @@ class Post(models.Model):
 	published = models.BooleanField(default=False)
 	pub_date = models.DateTimeField("Date Published", auto_now_add=True)
 	up_date = models.DateTimeField("Date Updated", auto_now=True)
-	categories = models.ManyToManyField(Category)
-	tags = models.ManyToManyField(Tag)
+	categories = models.ManyToManyField(Category, blank=True, null=True)
+	tags = models.ManyToManyField(Tag, blank=True, null=True)
 
 	objects = PostManager()
 

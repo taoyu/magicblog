@@ -24,7 +24,7 @@ sitemaps = {
 
 
 urlpatterns = patterns('',
-    url(r'^post/(?P<slug>[a-z-]+)/$', blog_generic_view, 
+    url(r'^post/(?P<slug>[a-z-0-9]+)/$', blog_generic_view, 
         {'redirect_to': list_detail.object_detail, 'slug_field': 'slug', 'paginate': False,}, name="single_post"),
     url(r'^$', blog_generic_view, 
         {'redirect_to': list_detail.object_list}, name="blog_home"),
@@ -39,4 +39,6 @@ urlpatterns = patterns('',
     url(r'^feeds/(?P<url>.*)/$', 'django.contrib.syndication.views.feed', {'feed_dict': feeds}),
 
     url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps' : sitemaps}),
+
+    url(r'^test/$', test),
 )
