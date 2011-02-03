@@ -7,7 +7,7 @@
 		<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
 		<p class="meta">{{ post.pub_date|date:"F j, Y" }}</p>
 		<div class="entry">
-			{{ post.body|safe }}
+			{{ post.body|safe|linebreaksbr }}
 		</div>
 	</div>
 	

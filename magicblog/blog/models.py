@@ -31,8 +31,8 @@ class Post(models.Model):
 	body = models.TextField()
 	excerpt = models.TextField()
 	published = models.BooleanField(default=False)
-	pub_date = models.DateTimeField("Date Published", auto_now_add=True)
-	up_date = models.DateTimeField("Date Updated", auto_now=True)
+	pub_date = models.DateTimeField("Date Published")
+	up_date = models.DateTimeField("Date Updated")
 	categories = models.ManyToManyField(Category, blank=True, null=True)
 	tags = models.ManyToManyField(Tag, blank=True, null=True)
 

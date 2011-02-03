@@ -13,7 +13,7 @@
 				<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
 				<p class="meta"><span class="date">{{ post.pub_date|date:"F j, Y" }}</span></p>
 				<div class="entry">
-					{{ post.excerpt|safe }}
+					{{ post.excerpt|safe|linebreaksbr }}
 					<p class="links"><a href="{% url single_post slug=post.slug %}">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Comments ({{ comment_count }})</p>
 				</div>
 			</div>

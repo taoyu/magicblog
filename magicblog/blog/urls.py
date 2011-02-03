@@ -2,6 +2,7 @@ from django.conf.urls.defaults import *
 from django.views.generic import list_detail, date_based
 from magicblog.blog.models import Post
 from magicblog.blog.views import *
+from magicblog.blog.import_wp import import_wp
 
 from magicblog.blog.feeds import BlogLatestEntries
 
@@ -40,5 +41,5 @@ urlpatterns = patterns('',
 
     url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps' : sitemaps}),
 
-    url(r'^test/$', test),
+    url(r'^import/$', import_wp),
 )

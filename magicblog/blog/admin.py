@@ -3,7 +3,7 @@ from magicblog.blog.models import *
 
 class PostAdmin(admin.ModelAdmin):
 	filter_horizontal = ("categories", "tags", )
-	list_display = ("title", "published", "pub_date")
+	list_display = ("title", "published", "pub_date", "id")
 	date_hierarchy = 'pub_date'
 	prepopulated_fields = {"slug" : ("title",)}
 	
