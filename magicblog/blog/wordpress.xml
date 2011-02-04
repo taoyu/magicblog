@@ -15,7 +15,7 @@
 <!-- 6. WordPress will then import each of the posts, comments, and categories -->
 <!--    contained in this file into your blog -->
 
-<!-- generator="WordPress/3.0.4" created="2011-02-02 11:01"-->
+<!-- generator="WordPress/3.0.4" created="2011-02-03 08:11"-->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.0/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -28,7 +28,7 @@
 	<title>stay hungry, stay foolish</title>
 	<link>http://www.colorfulcloud.com</link>
 	<description>桃雨的个人博客</description>
-	<pubDate>Tue, 01 Feb 2011 08:55:27 +0000</pubDate>
+	<pubDate>Thu, 03 Feb 2011 08:10:14 +0000</pubDate>
 	<generator>http://wordpress.org/?v=3.0.4</generator>
 	<language>en</language>
 	<wp:wxr_version>1.0</wp:wxr_version>
@@ -43,44 +43,29 @@
 		<wp:category><wp:category_nicename>web</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[web]]></wp:cat_name></wp:category>
 			<wp:tag><wp:tag_slug>37signals</wp:tag_slug><wp:tag_name><![CDATA[37signals]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>amazon</wp:tag_slug><wp:tag_name><![CDATA[amazon]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>apple-think-different</wp:tag_slug><wp:tag_name><![CDATA[apple think-different]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>blog</wp:tag_slug><wp:tag_name><![CDATA[blog]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>college</wp:tag_slug><wp:tag_name><![CDATA[college]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>david-heinemeier-hansson-speech</wp:tag_slug><wp:tag_name><![CDATA[David-Heinemeier-Hansson-speech]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>deliberate-college</wp:tag_slug><wp:tag_name><![CDATA[deliberate college]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>dhh</wp:tag_slug><wp:tag_name><![CDATA[DHH]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>dream</wp:tag_slug><wp:tag_name><![CDATA[dream]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>entrepreneurship</wp:tag_slug><wp:tag_name><![CDATA[entrepreneurship]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>gre</wp:tag_slug><wp:tag_name><![CDATA[gre]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>idea</wp:tag_slug><wp:tag_name><![CDATA[idea]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>instapaper-start-up</wp:tag_slug><wp:tag_name><![CDATA[Instapaper start-up]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>internet</wp:tag_slug><wp:tag_name><![CDATA[internet]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>jeff-bezos</wp:tag_slug><wp:tag_name><![CDATA[Jeff Bezos]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>kindle</wp:tag_slug><wp:tag_name><![CDATA[kindle]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>magicblog</wp:tag_slug><wp:tag_name><![CDATA[magicblog]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>pg</wp:tag_slug><wp:tag_name><![CDATA[PG]]></wp:tag_name></wp:tag>
+		<wp:tag><wp:tag_slug>plan</wp:tag_slug><wp:tag_name><![CDATA[plan]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>quora</wp:tag_slug><wp:tag_name><![CDATA[quora]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>rework</wp:tag_slug><wp:tag_name><![CDATA[rework]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>rework-37signals</wp:tag_slug><wp:tag_name><![CDATA[rework 37signals]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>sns</wp:tag_slug><wp:tag_name><![CDATA[SNS]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>speech</wp:tag_slug><wp:tag_name><![CDATA[speech]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>startup</wp:tag_slug><wp:tag_name><![CDATA[startup]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>startup-paul-graham</wp:tag_slug><wp:tag_name><![CDATA[startup Paul-Graham]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>startup-ted</wp:tag_slug><wp:tag_name><![CDATA[startup ted]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>steve-jobs</wp:tag_slug><wp:tag_name><![CDATA[Steve Jobs]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>student</wp:tag_slug><wp:tag_name><![CDATA[student]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>success</wp:tag_slug><wp:tag_name><![CDATA[success]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>taibei</wp:tag_slug><wp:tag_name><![CDATA[taibei]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>taiwan</wp:tag_slug><wp:tag_name><![CDATA[taiwan]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>ted</wp:tag_slug><wp:tag_name><![CDATA[TED]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>thinking</wp:tag_slug><wp:tag_name><![CDATA[thinking]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>time</wp:tag_slug><wp:tag_name><![CDATA[time]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>ustc-gpa</wp:tag_slug><wp:tag_name><![CDATA[USTC GPA]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>works</wp:tag_slug><wp:tag_name><![CDATA[works]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>writetofuture</wp:tag_slug><wp:tag_name><![CDATA[writetofuture]]></wp:tag_name></wp:tag>
 		<wp:tag><wp:tag_slug>youth</wp:tag_slug><wp:tag_name><![CDATA[youth]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>%e6%bc%94%e8%ae%b2</wp:tag_slug><wp:tag_name><![CDATA[演讲]]></wp:tag_name></wp:tag>
-		<wp:tag><wp:tag_slug>%e9%80%89%e6%8b%a9-%e6%88%90%e6%9c%ac</wp:tag_slug><wp:tag_name><![CDATA[选择 成本]]></wp:tag_name></wp:tag>
 			<wp:term><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>wiki</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[wiki]]></wp:term_name></wp:term>
 	
 	<generator>http://wordpress.org/?v=3.0.4</generator>
@@ -3591,6 +3576,10 @@ quora现在在硅谷很火，由facebook前员工创办。我也算是quora最�
 
 		<category domain="category" nicename="life"><![CDATA[life]]></category>
 
+		<category domain="tag"><![CDATA[plan]]></category>
+
+		<category domain="tag" nicename="plan"><![CDATA[plan]]></category>
+
 		<guid isPermaLink="false">http://www.colorfulcloud.com/?p=143173</guid>
 		<description></description>
 		<content:encoded><![CDATA[好久没写博客了，有很多想写的，但一直比较忙，前一段在准备期末考试和各种project，考完试又开始离开台湾前的最后疯狂，昨晚总算回到了沈阳。
@@ -3645,7 +3634,7 @@ quora现在在硅谷很火，由facebook前员工创办。我也算是quora最�
 		</wp:postmeta>
 				<wp:postmeta>
 		<wp:meta_key>_edit_lock</wp:meta_key>
-		<wp:meta_value><![CDATA[1296229732]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1296720616]]></wp:meta_value>
 		</wp:postmeta>
 				<wp:postmeta>
 		<wp:meta_key>_edit_last</wp:meta_key>
@@ -4026,7 +4015,21 @@ facebook还有那些不足呢？]]></excerpt:encoded>
 		<wp:meta_key>_edit_last</wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-							</item>
+								<wp:comment>
+		<wp:comment_id>104</wp:comment_id>
+		<wp:comment_author><![CDATA[varicella zoster virus]]></wp:comment_author>
+		<wp:comment_author_email>Melia131@gmail.com</wp:comment_author_email>
+		<wp:comment_author_url>http://thechickenpoxvaccine.com/about/who-is-more-prone-to-contacting-chicken-pox/</wp:comment_author_url>
+		<wp:comment_author_IP>174.140.171.223</wp:comment_author_IP>
+		<wp:comment_date>2011-02-02 18:08:46</wp:comment_date>
+		<wp:comment_date_gmt>2011-02-02 18:08:46</wp:comment_date_gmt>
+		<wp:comment_content><![CDATA[I'm often to blogging and i actually appreciate your content. The article has actually peaks my interest. I am going to bookmark your web site and keep checking for brand new information.]]></wp:comment_content>
+		<wp:comment_approved>trash</wp:comment_approved>
+		<wp:comment_type></wp:comment_type>
+		<wp:comment_parent>0</wp:comment_parent>
+		<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+			</item>
 		<item>
 		<title>magicblog-基于Django的博客系统-开发计划</title>
 		<link>http://www.colorfulcloud.com/?p=143199</link>
@@ -4829,5 +4832,328 @@ sitemaps = {
 		<wp:comment_user_id>0</wp:comment_user_id>
 		</wp:comment>
 			</item>
+		<item>
+		<title>magicblog开发日记(5)-添加留言板，提供全文搜索</title>
+		<link>http://www.colorfulcloud.com/?p=143269</link>
+		<pubDate>Wed, 02 Feb 2011 15:23:08 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<category><![CDATA[hacking]]></category>
+
+		<category domain="category" nicename="hacking"><![CDATA[hacking]]></category>
+
+		<category domain="tag"><![CDATA[magicblog]]></category>
+
+		<category domain="tag" nicename="magicblog"><![CDATA[magicblog]]></category>
+
+		<guid isPermaLink="false">http://www.colorfulcloud.com/?p=143269</guid>
+		<description></description>
+		<content:encoded><![CDATA[今天是大年三十，春晚实在是无聊，还是写程序吧,   go!!!!
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+<h1>1.增加留言板</h1>
+其实这个功能可有可无，读者可以直接给我发邮件就可以了，但是为了方便读者，我还是准备实现以下“留言板”
+这就需要Django的Form的支持，关于Django Form可以参见<a href="http://www.djangobook.com/en/2.0/chapter07/">Django Book的第七章</a>。
+首先新建一个文件forms.py，并且定义一个ContactForm类，继承自Form类，代码如下：
+
+[code]
+from django import forms
+
+class ContactForm(forms.Form):
+    subject = forms.CharField(max_length=100)
+    email = forms.EmailField(required=False, label='your email')
+    message = forms.CharField(widget=forms.Textarea)
+[/code]
+
+ContactForm类包含三个变量，分别为：标题，内容和读者的email。
+然后再urls.py中增加一条：(r'^contact/$', contact),
+最后在views.py中定义contact方法，如下：
+
+[code]
+from django.core.context_processors import csrf
+
+from django.http import HttpResponseRedirect
+
+from django.shortcuts import render_to_response
+from forms import ContactForm
+
+from django.core.mail import send_mail
+
+def contact(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            send_mail(
+                cd['subject'],
+                cd.get('email', 'noreply@example.com')+&quot;   says:\n&quot;+cd['message'],
+                'magicblogemail@gmail.com',
+                ['tylovemx@gmail.com'],
+            )
+            return HttpResponseRedirect('/contact/thanks/')
+    else:
+        form = ContactForm()
+    c = {'form': form}
+    c.update(csrf(request))
+    return render_to_response('contact_form.html', c)
+[/code]
+
+上面的代码把读者发来的数据写入邮件，发给站长本人，用到了Django发送email的功能，详见<a href="http://docs.djangoproject.com/en/dev/topics/email/">Django文档</a>，同时要在settings.py中设置email的参数，如下：
+
+[code]
+EMAIL_HOST = &quot;smtp.gmail.com&quot;
+EMAIL_HOST_PASSWORD = &quot;magic1234&quot;
+EMAIL_HOST_USER = &quot;magicblogemail@gmail.com&quot;
+EMAIL_USE_TLS = True
+[/code]
+
+最后要完成的就是上面用到的contact_form.html模板文件了，如下：
+
+[code]
+{% extends &quot;base.html&quot; %}
+{% block content %}
+    &lt;h2 class=&quot;title&quot;&gt;Contact me&lt;/h2&gt;
+    &lt;p&gt;Please finish the form below or directly send me an email, my email address is &quot;taoyu@mail.ustc.edu.cn&quot;&lt;/p&gt;
+    {% if form.errors %}
+        &lt;p style=&quot;color: red;&quot;&gt;
+            Please correct the error{{ form.errors|pluralize }} below.
+        &lt;/p&gt;
+    {% endif %}
+    &lt;form action=&quot;&quot; method=&quot;post&quot;&gt;  {% csrf_token %}
+        &lt;table&gt;
+            {{ form.as_table }}
+	    &lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;td&gt;&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/form&gt;
+{% endblock %}
+[/code]
+
+上面form.as_table将ContactForm类以table的方式展示成html，很方便。
+{% csrf_token %}是为了防止“跨站请求伪造”，为了安全。
+<h1>2.全文搜索</h1>
+要实现全文搜索其实很简单，只需要在标题和正文中搜索用户输入的词即可，简单来说就是icontains。
+这个搜索功能准备用Manager类来实现，即实现一个PostManager类，继承自models.Manager，如下：
+
+[code]
+class PostManager(models.Manager):
+    def search(self, search_string):
+        search_string = search_string.strip()
+
+        queryset = self.get_query_set()
+        return queryset.filter(models.Q(title__icontains=search_string) | models.Q(body__icontains=search_string))
+[/code]
+
+然后需要在Post类的定义中添加一句： objects = PostManager()
+下面就可以考虑view了，同样可以使用我们自定义的blog_generic_view来减少工作，和前面的不同之处在于search返回的queryset是包含搜索词的那些post：
+
+[code]
+def blog_post_search(request):
+    if 's' in request.GET and request.GET['s']:
+        s = request.GET['s']
+        return blog_generic_view(
+            request,
+            list_detail.object_list,
+	    queryset = Post.objects.search(s)
+        )
+    else:
+        return render_to_response('blog/invalid_search.html')
+[/code]
+
+首先取出request中取出s变量，然后构建queryset，使用前面自定义的叫做search的Manager，最终通过封装好的blog_generic_view返回。如果用户输入有问题的话，返回invalid_search.html，如下：
+
+[code]
+{% extends &quot;base.html&quot; %}
+
+{% block title %}Invalid search{% endblock %}
+
+{% block content %}
+	&lt;p&gt;Please submit a search term. &lt;/p&gt;
+{% endblock %}
+[/code]
+
+当然还要在urls.py中添加一句： url(r'^search/$', blog_post_search, name="blog_post_search"),
+并且把模板中的搜索框的action地址改一下：
+
+<form action="{% url blog_post_search %}" method="get"> 这样就大功告成了!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</form> <form action="{% url blog_post_search %}" method="get">留言本的外观是这样的，还可以啦
+<img class="alignnone" title="magicblog_5" src="https://uk1xdq.blu.livefilestore.com/y1p3dWM2FkHyTz-0K3dpQSs1PU75euJdlOumLEIDQt0rRR9uQaGd8iaQkNx7qa4ZoA7YbagVfZuDhcO10uj86FSRAxFEcZQrQ3U/magicblog_5.png?psid=1" alt="" width="1280" height="800" /></form> <form action="{% url blog_post_search %}" method="get"></form>]]></content:encoded>
+		<excerpt:encoded><![CDATA[其实这个功能可有可无，读者可以直接给我发邮件就可以了，但是为了方便读者，我还是准备实现以下“留言板”
+这就需要Django的Form的支持，关于Django Form可以参见Django Book的第七章。]]></excerpt:encoded>
+		<wp:post_id>143269</wp:post_id>
+		<wp:post_date>2011-02-02 15:23:08</wp:post_date>
+		<wp:post_date_gmt>2011-02-02 15:23:08</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>magicblog%e5%bc%80%e5%8f%91%e6%97%a5%e8%ae%b05-%e6%b7%bb%e5%8a%a0%e7%95%99%e8%a8%80%e6%9d%bf%ef%bc%8c%e6%8f%90%e4%be%9b%e5%85%a8%e6%96%87%e6%90%9c%e7%b4%a2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+								<wp:postmeta>
+		<wp:meta_key>_edit_lock</wp:meta_key>
+		<wp:meta_value><![CDATA[1296660189]]></wp:meta_value>
+		</wp:postmeta>
+				<wp:postmeta>
+		<wp:meta_key>_edit_last</wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+				<wp:postmeta>
+		<wp:meta_key>_syntaxhighlighter_encoded</wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+				<wp:postmeta>
+		<wp:meta_key>_wp_old_slug</wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+		<item>
+		<title>magicblog开发日记(6)-从wordpress导入数据</title>
+		<link>http://www.colorfulcloud.com/?p=143279</link>
+		<pubDate>Thu, 03 Feb 2011 07:23:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<category><![CDATA[hacking]]></category>
+
+		<category domain="category" nicename="hacking"><![CDATA[hacking]]></category>
+
+		<category domain="tag"><![CDATA[magicblog]]></category>
+
+		<category domain="tag" nicename="magicblog"><![CDATA[magicblog]]></category>
+
+		<guid isPermaLink="false">http://www.colorfulcloud.com/?p=143279</guid>
+		<description></description>
+		<content:encoded><![CDATA[能够从其他平台导入数据是博客的重要功能之一，而wordpress是使用最广泛的blog engine，我决定实现从wordpress导入数据的功能。
+关于如何实现这一功能，我考虑了一段时间，最后还是决定用wordpress导出的xml文件来作为数据源。其实还有几种其他可能的方法，我感觉都有弊端，有人和我遇到过类似的问题，<a href="http://www.eriksmartt.com/blog/archives/306">他的分析</a>不错，推荐一下。
+wordpress导出的是xml文件，首先需要解析(parse)，之后把解析出来的数据写入magicblog的数据库即可，从逻辑上来讲非常简单，细心一点就OK。
+我使用xml.etree.ElementTree来处理XML，并且构造了一个用来解析wordpress日期的方法，叫做parse_date，如下
+
+[code]
+def parse_date(date_str):
+	try:
+		date = datetime.strptime(date_str ,&quot;%Y-%m-%d %H:%M:%S&quot;)
+	except:
+		try:
+			date = datetime.strptime(date_str ,&quot;%a, %d %b %Y %H:%M:%S&quot;)
+		except:
+			date = datetime.now()
+	return date
+[/code]
+
+超简单，不解释。
+然后就是具体的解析xml，写入数据库的过程了，先贴代码，再解释：
+
+[code]
+def import_wp(request):
+	wpns = &quot;{http://wordpress.org/export/1.0/}&quot;
+	contentns = &quot;{http://purl.org/rss/1.0/modules/content/}&quot;
+	excerptns = &quot;{http://wordpress.org/export/1.0/excerpt/}&quot;
+
+	root = ET.parse(os.path.join(os.path.abspath(os.path.dirname(__file__)),'wordpress.xml')).getroot().find('channel')
+
+	for item in root.findall(wpns+'category'):
+		category = Category()
+		category.name = item.findtext(wpns+'cat_name')
+		category.save()
+
+	for item in root.findall(wpns+'tag'):
+		tag = Tag()
+		tag.name = item.findtext(wpns+'tag_name')
+		tag.save()
+
+	for item in root.findall('item'):
+		post = Post()
+		post.author_id = 1
+		post.title = item.findtext('title')
+		post.slug = item.findtext(wpns+'post_id')
+		post.body = item.findtext(contentns+'encoded')
+		post.excerpt = item.findtext(excerptns+'encoded')
+		post.published = True
+
+		date = item.findtext(wpns+'post_date')
+
+		post.pub_date = parse_date(date)
+
+		post.up_date = post.pub_date
+
+		post.save()
+
+		categories = item.findall(&quot;category&quot;)
+		for c in categories:
+			if c.attrib.has_key('nicename'):
+				nicename = c.attrib['nicename']
+				cat_type = c.attrib['domain']
+				if cat_type == 'tag':
+					tag = Tag.objects.get(name=c.text)
+					if tag:
+						post.tags.add(tag)
+				else:
+					cat = Category.objects.get(name=c.text)
+					if cat:
+						post.categories.add(cat)
+
+		post.save()
+
+		comments = item.findall(wpns+'comment')
+		for c in comments:
+			comment = Comment()
+			comment.content_object = post
+
+			comment.site_id = 1
+
+			comment.user_name = c.findtext(wpns+'comment_author')
+			comment.user_email = c.findtext(wpns+'comment_author_email')
+			comment.user_url = c.findtext(wpns+'comment_author_url')
+
+			date = c.findtext(wpns+'comment_date')
+			comment.submit_date = parse_date(date)
+
+			comment.comment = c.findtext(wpns+'comment_content')
+			comment.is_public = True
+
+			comment.save()
+	return redirect('/')
+[/code]
+
+根据wordpress的导出xml根式，我们最好先定义三个name space : wpns, contentns, excerptns，以备后用。
+然后就是先导入category,在导入tag，然后就是post，最后是comment
+that's all
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+至此，magicblog已经全部完成了！实现了想要实现的所有功能。
+如果开始的时候没设定一个开发计划的话，估计我很难坚持下来，即使坚持下来也要多好很多时间。
+接下来要做的就是一些优化工作，最终部署到我自己的aws服务器上。
+以后我就不用wordpress了，我用自己写的magicblog，用自己做的东西感觉还是很自豪的。]]></content:encoded>
+		<excerpt:encoded><![CDATA[能够从其他平台导入数据是博客的重要功能之一，而wordpress是使用最广泛的blog engine，我决定实现从wordpress导入数据的功能。
+关于如何实现这一功能，我考虑了一段时间，最后还是决定用wordpress导出的xml文件来作为数据源。其实还有几种其他可能的方法，我感觉都有弊端，有人和我遇到过类似的问题，<a href="http://www.eriksmartt.com/blog/archives/306">他的分析</a>不错，推荐一下。
+wordpress导出的是xml文件，首先需要解析(parse)，之后把解析出来的数据写入magicblog的数据库即可，从逻辑上来讲非常简单，细心一点就OK。]]></excerpt:encoded>
+		<wp:post_id>143279</wp:post_id>
+		<wp:post_date>2011-02-03 07:23:57</wp:post_date>
+		<wp:post_date_gmt>2011-02-03 07:23:57</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>magicblog%e5%bc%80%e5%8f%91%e6%97%a5%e8%ae%b06-%e4%bb%8ewordpress%e5%af%bc%e5%85%a5%e6%95%b0%e6%8d%ae</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+								<wp:postmeta>
+		<wp:meta_key>_edit_lock</wp:meta_key>
+		<wp:meta_value><![CDATA[1296717839]]></wp:meta_value>
+		</wp:postmeta>
+				<wp:postmeta>
+		<wp:meta_key>_edit_last</wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+				<wp:postmeta>
+		<wp:meta_key>_syntaxhighlighter_encoded</wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+				<wp:postmeta>
+		<wp:meta_key>_wp_old_slug</wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 	</channel>
 </rss>

@@ -11,10 +11,29 @@
 
 			<div class="post">
 				<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
-				<p class="meta"><span class="date">{{ post.pub_date|date:"F j, Y" }}</span></p>
+				<p class="meta"><span class="date">{{ post.pub_date|date:"Y/m/d" }}</span></p>
 				<div class="entry">
 					{{ post.excerpt|safe|linebreaksbr }}
-					<p class="links"><a href="{% url single_post slug=post.slug %}">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Comments ({{ comment_count }})</p>
+					<p class="links">
+						<a href="{% url single_post slug=post.slug %}">Read More</a>
+						&nbsp;&nbsp;|&nbsp;&nbsp;
+						Posted in 
+						{% for category in post.categories.all %}
+							<a href="{% url blog_posts_by_category category.id %}">{{ category.name }}</a>
+						{% empty %}
+							none
+						{% endfor%}
+						&nbsp;&nbsp;|&nbsp;&nbsp;
+						Tagged
+						{% for tag in post.tags.all %}
+							<a href="{% url blog_posts_by_tag tag.id %}">{{ tag.name }}</a>
+						{% empty %}
+							none
+						{% endfor%}
+						&nbsp;&nbsp;|&nbsp;&nbsp;
+						Comments ({{ comment_count }})
+						
+					</p>
 				</div>
 			</div>
 

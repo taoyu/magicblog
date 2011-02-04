@@ -18,6 +18,7 @@ def blog_posts_by_category(request, category_id):
     return blog_generic_view(
         request,
         list_detail.object_list,
+	paginate = False,
         queryset = category.post_set.all()
     )
 
@@ -26,6 +27,7 @@ def blog_posts_by_tag(request, tag_id):
     return blog_generic_view(
         request,
         list_detail.object_list,
+	paginate = False,
         queryset = tag.post_set.all()
     )
 
