@@ -18,7 +18,7 @@ def contact(request):
                 'magicblogemail@gmail.com',
                 ['tylovemx@gmail.com'],
             )
-            return HttpResponseRedirect('/contact/thanks')
+            return HttpResponseRedirect('/contact/thanks/')
     else:
         form = ContactForm()
     c = {'form': form}
