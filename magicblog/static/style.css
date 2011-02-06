@@ -18,7 +18,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #FFFFFF;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "宋体", Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #A19D9A;
 }
@@ -302,7 +302,7 @@ font-size: 15px;
 }
 
 #sidebar li ul a {
-	padding: 0px 0px 0px 30px;
+	padding: 0px 0px 0px 0px;
 }
 
 #sidebar li li a {
@@ -321,8 +321,8 @@ font-size: 15px;
 
 #sidebar p {
 	margin: 0 0px;
-	padding: 0px 30px 20px 30px;
-	text-align: justify;
+	padding: 0px 30px 20px 0px;
+	text-align: center;
 }
 
 #sidebar a {
@@ -385,8 +385,13 @@ font-size: 15px;
 	padding: 0px 30px 20px 30px;
 }
 
+a img{
+	border:none;
+}
 
 .service-icon{
 	padding: 0px 0px 0px 20px;
 }
-.service-icon a img {margin-right:0.3em; border:none;}
+.service-icon a img {
+	margin-right:0.3em;
+}

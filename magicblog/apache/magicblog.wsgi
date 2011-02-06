@@ -1,13 +1,14 @@
 import os, sys
 
-#Calculate the path based on the location of the WSGI script.
-apache_configuration= os.path.dirname(__file__)
-project = os.path.dirname(apache_configuration)
-workspace = os.path.dirname(project)
-sys.path.append(workspace) 
+sys.path.append('/var/www/html')
+sys.path.append('/usr/lib/python2.6/site-packages/django/')
 
+os.environ['DJANGO_SETTINGS_MODULE'] = 'magicblog.settings_production'
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'magicblog.apache.settings_production'
+ 
+
 import django.core.handlers.wsgi
-application = django.core.handlers.wsgi.WSGIHandler()
 
+ 
+
+application = django.core.handlers.wsgi.WSGIHandler()
