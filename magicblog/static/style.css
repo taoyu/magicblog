@@ -251,6 +251,7 @@ a:hover {
 	padding: 0px 30px 20px 30px;
 	padding-bottom: 20px;
 	text-align: justify;
+font-size: 15px;
 }
 
 .links {
@@ -383,3 +384,9 @@ a:hover {
 .paginate{
 	padding: 0px 30px 20px 30px;
 }
+
+
+.service-icon{
+	padding: 0px 0px 0px 20px;
+}
+.service-icon a img {margin-right:0.3em; border:none;}

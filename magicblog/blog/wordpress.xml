@@ -15,7 +15,7 @@
 <!-- 6. WordPress will then import each of the posts, comments, and categories -->
 <!--    contained in this file into your blog -->
 
-<!-- generator="WordPress/3.0.4" created="2011-02-03 08:11"-->
+<!-- generator="WordPress/3.0.4" created="2011-02-06 06:50"-->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.0/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -28,7 +28,7 @@
 	<title>stay hungry, stay foolish</title>
 	<link>http://www.colorfulcloud.com</link>
 	<description>桃雨的个人博客</description>
-	<pubDate>Thu, 03 Feb 2011 08:10:14 +0000</pubDate>
+	<pubDate>Thu, 03 Feb 2011 08:40:18 +0000</pubDate>
 	<generator>http://wordpress.org/?v=3.0.4</generator>
 	<language>en</language>
 	<wp:wxr_version>1.0</wp:wxr_version>
@@ -3044,6 +3044,20 @@ that's all]]></content:encoded>
 		<wp:comment_parent>70</wp:comment_parent>
 		<wp:comment_user_id>0</wp:comment_user_id>
 		</wp:comment>
+				<wp:comment>
+		<wp:comment_id>107</wp:comment_id>
+		<wp:comment_author><![CDATA[Florarie online]]></wp:comment_author>
+		<wp:comment_author_email>Mansel@yahoo.com</wp:comment_author_email>
+		<wp:comment_author_url>http://www.florionline.net/</wp:comment_author_url>
+		<wp:comment_author_IP>173.208.57.7</wp:comment_author_IP>
+		<wp:comment_date>2011-02-04 15:57:57</wp:comment_date>
+		<wp:comment_date_gmt>2011-02-04 15:57:57</wp:comment_date_gmt>
+		<wp:comment_content><![CDATA[He wanted so desperately to help her, but the strength he had found in reaching his peak now seemed to prevent him from having the one thing, the only thing, that he found himself wanting.]]></wp:comment_content>
+		<wp:comment_approved>trash</wp:comment_approved>
+		<wp:comment_type></wp:comment_type>
+		<wp:comment_parent>0</wp:comment_parent>
+		<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 			</item>
 		<item>
 		<title>戒骄戒躁</title>
@@ -3184,6 +3198,21 @@ To be honesty，我一直是一个比较骄傲的人。
 		<wp:comment_date_gmt>2010-12-31 13:09:50</wp:comment_date_gmt>
 		<wp:comment_content><![CDATA[“什么学校啊，分数啊，经历啊，都是浮云，能力和修养才是一个人的核心竞争力”说的太好了~~呵呵]]></wp:comment_content>
 		<wp:comment_approved>1</wp:comment_approved>
+		<wp:comment_type></wp:comment_type>
+		<wp:comment_parent>0</wp:comment_parent>
+		<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+				<wp:comment>
+		<wp:comment_id>106</wp:comment_id>
+		<wp:comment_author><![CDATA[реферат]]></wp:comment_author>
+		<wp:comment_author_email>kapitaljf@mail.ru</wp:comment_author_email>
+		<wp:comment_author_url>http://manheim-total.ru/</wp:comment_author_url>
+		<wp:comment_author_IP>95.78.64.72</wp:comment_author_IP>
+		<wp:comment_date>2011-02-03 09:59:36</wp:comment_date>
+		<wp:comment_date_gmt>2011-02-03 09:59:36</wp:comment_date_gmt>
+		<wp:comment_content><![CDATA[Ваш сайт www.colorfulcloud.com просто супер ! thanks !  
+<a href="http://manheim-total.ru/" / rel="nofollow">:)</a>]]></wp:comment_content>
+		<wp:comment_approved>trash</wp:comment_approved>
 		<wp:comment_type></wp:comment_type>
 		<wp:comment_parent>0</wp:comment_parent>
 		<wp:comment_user_id>0</wp:comment_user_id>
@@ -4307,7 +4336,7 @@ linux自带python，django的安装见官网，相关软件的安装请google，
 		</wp:postmeta>
 							</item>
 		<item>
-		<title>magicblog开发日记(2)-添加模板,完成首页文章列表及单个文章的显示，添加评论</title>
+		<title>magicblog开发日记(2)-添加模板,文章列表及单个文章的显示，添加评论</title>
 		<link>http://www.colorfulcloud.com/?p=143243</link>
 		<pubDate>Sun, 30 Jan 2011 07:01:38 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
@@ -4456,7 +4485,7 @@ url(r'^$', blog_generic_view,
 		</wp:postmeta>
 				<wp:postmeta>
 		<wp:meta_key>_edit_lock</wp:meta_key>
-		<wp:meta_value><![CDATA[1296456639]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1296722622]]></wp:meta_value>
 		</wp:postmeta>
 				<wp:postmeta>
 		<wp:meta_key>_edit_last</wp:meta_key>
@@ -4467,6 +4496,20 @@ url(r'^$', blog_generic_view,
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 								<wp:comment>
+		<wp:comment_id>105</wp:comment_id>
+		<wp:comment_author><![CDATA[admin]]></wp:comment_author>
+		<wp:comment_author_email>tylovemx@gmail.com</wp:comment_author_email>
+		<wp:comment_author_url></wp:comment_author_url>
+		<wp:comment_author_IP>113.225.147.168</wp:comment_author_IP>
+		<wp:comment_date>2011-02-03 08:46:09</wp:comment_date>
+		<wp:comment_date_gmt>2011-02-03 08:46:09</wp:comment_date_gmt>
+		<wp:comment_content><![CDATA[是权限的问题，已经改好了，谢谢]]></wp:comment_content>
+		<wp:comment_approved>1</wp:comment_approved>
+		<wp:comment_type></wp:comment_type>
+		<wp:comment_parent>100</wp:comment_parent>
+		<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+				<wp:comment>
 		<wp:comment_id>100</wp:comment_id>
 		<wp:comment_author><![CDATA[zc]]></wp:comment_author>
 		<wp:comment_author_email>zc881213@gmail.com</wp:comment_author_email>

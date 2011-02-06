@@ -12,6 +12,9 @@ class PostAdmin(admin.ModelAdmin):
 			obj.author=request.user
 		obj.save()
 
+	class Media:
+		js=('/static/tiny_mce/tiny_mce.js',
+		    '/static/tiny_mce/textareas.js',)
 admin.site.register(Category)
 admin.site.register(Tag)
 admin.site.register(Post, PostAdmin)

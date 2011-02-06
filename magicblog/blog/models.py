@@ -16,6 +16,7 @@ class Tag(models.Model):
 	def __unicode__(self):
 		return self.name
 
+
 class PostManager(models.Manager):
     def search(self, search_string):
         search_string = search_string.strip()
