@@ -4,7 +4,7 @@
 
 
 	<div class="post">
-		<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
+		<h1 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h1>
 		<p class="meta"><span class="date">{{ post.pub_date|date:"Y/d/m" }}</span></p>
 		<div class="entry">
 			{{ post.body|safe|linebreaksbr }}

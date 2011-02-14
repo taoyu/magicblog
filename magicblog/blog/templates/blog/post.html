@@ -3,7 +3,7 @@
 {% get_comment_count for post as comment_count %}
 
 <div class="post">
-	<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
+	<h1 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h1>
 	<p class="meta">{{ post.pub_date|date:"F j, Y" }}</p>
 	<div class="entry">
 		{{ post.body|safe }}

@@ -10,7 +10,7 @@
 			{% get_comment_count for post as comment_count %}
 
 			<div class="post">
-				<h2 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h2>
+				<h1 class="title"><a href="{% url single_post slug=post.slug %}">{{ post.title }}</a></h1>
 				<p class="meta"><span class="date">{{ post.pub_date|date:"Y/m/d" }}</span></p>
 				<div class="entry">
 					{{ post.excerpt|safe|linebreaksbr }}
@@ -19,14 +19,14 @@
 						&nbsp;&nbsp;|&nbsp;&nbsp;
 						Posted in 
 						{% for category in post.categories.all %}
-							<a href="{% url blog_posts_by_category category.id %}">{{ category.name }}</a>
+							<a href="{% url blog_posts_by_category category.name %}">{{ category.name }}</a>
 						{% empty %}
 							none
 						{% endfor%}
 						&nbsp;&nbsp;|&nbsp;&nbsp;
 						Tagged
 						{% for tag in post.tags.all %}
-							<a href="{% url blog_posts_by_tag tag.id %}">{{ tag.name }}</a>
+							<a href="{% url blog_posts_by_tag tag.name %}">{{ tag.name }}</a>
 						{% empty %}
 							none
 						{% endfor%}

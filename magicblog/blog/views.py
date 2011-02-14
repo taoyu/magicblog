@@ -13,8 +13,8 @@ def blog_generic_view(request, redirect_to, paginate = True, **view_args):
     
     return redirect_to(request, **view_args)
 
-def blog_posts_by_category(request, category_id):
-    category = get_object_or_404(Category, pk = category_id)
+def blog_posts_by_category(request, slug):
+    category = get_object_or_404(Category, name = slug)
     return blog_generic_view(
         request,
         list_detail.object_list,
@@ -22,8 +22,8 @@ def blog_posts_by_category(request, category_id):
         queryset = category.post_set.all()
     )
 
-def blog_posts_by_tag(request, tag_id):
-    tag = get_object_or_404(Tag, pk = tag_id)
+def blog_posts_by_tag(request, slug):
+    tag = get_object_or_404(Tag, name = slug)
     return blog_generic_view(
         request,
         list_detail.object_list,

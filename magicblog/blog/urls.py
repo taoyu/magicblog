@@ -32,8 +32,8 @@ urlpatterns = patterns('',
     url(r'^archive/(?P<year>\d{4})/(?P<month>\d{1,2})/$', blog_generic_view,
         {'redirect_to': date_based.archive_month, 'month_format': '%m', 'date_field': 'pub_date', 'template_name': 'blog/post_list.html', 'paginate': False,}
             , name="blog_posts_by_month"),
-    url(r'^category/(\d+)/$', blog_posts_by_category, name="blog_posts_by_category"),
-    url(r'^tag/(\d+)/$', blog_posts_by_tag, name="blog_posts_by_tag"),
+    url(r'^category/(?P<slug>[a-z-0-9]+)/$', blog_posts_by_category, name="blog_posts_by_category"),
+    url(r'^tag/(?P<slug>[a-z-A-Z-0-9]+)/$', blog_posts_by_tag, name="blog_posts_by_tag"),
 
     url(r'^search/$', blog_post_search, name="blog_post_search"),
 
