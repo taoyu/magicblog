@@ -5,7 +5,7 @@ from django.views.generic import list_detail
 
 
 def blog_generic_view(request, redirect_to, paginate = True, **view_args):
-    view_args['queryset'] = view_args.get('queryset', Post.objects.all())
+    view_args['queryset'] = view_args.get('queryset', Post.objects.filter(published = True))
     view_args['template_object_name'] = 'post'
    
     if paginate:
@@ -19,7 +19,7 @@ def blog_posts_by_category(request, slug):
         request,
         list_detail.object_list,
 	paginate = False,
-        queryset = category.post_set.all()
+        queryset = category.post_set.filter(published = True)
     )
 
 def blog_posts_by_tag(request, slug):
@@ -28,7 +28,7 @@ def blog_posts_by_tag(request, slug):
         request,
         list_detail.object_list,
 	paginate = False,
-        queryset = tag.post_set.all()
+        queryset = tag.post_set.filter(published = True)
     )
 
 def blog_post_search(request):
@@ -37,7 +37,7 @@ def blog_post_search(request):
         return blog_generic_view(
             request,
             list_detail.object_list,
-	    queryset = Post.objects.search(s)
+	    queryset = Post.objects.search(s).filter(published = True)
         )
     else:
         return render_to_response('blog/invalid_search.html')

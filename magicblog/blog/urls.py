@@ -13,14 +13,14 @@ feeds = {
     'latest' : BlogLatestEntries
 }
 
-info_dict = {
+post_dict = {
     'queryset': Post.objects.all(),
     'date_field' : 'pub_date',
 }
 
 sitemaps = {
     'flatpages' : FlatPageSitemap,
-    'blog' : GenericSitemap(info_dict, priority=0.6, changefreq = "monthly"),
+    'post' : GenericSitemap(post_dict, priority=0.6, changefreq = "monthly"),
 }
 
 

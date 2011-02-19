@@ -16,7 +16,6 @@ class Tag(models.Model):
 	def __unicode__(self):
 		return self.name
 
-
 class PostManager(models.Manager):
     def search(self, search_string):
         search_string = search_string.strip()
@@ -32,8 +31,8 @@ class Post(models.Model):
 	body = models.TextField()
 	excerpt = models.TextField()
 	published = models.BooleanField(default=False)
-	pub_date = models.DateTimeField("Date Published")
-	up_date = models.DateTimeField("Date Updated")
+	pub_date = models.DateTimeField("Date Published", auto_now_add=True)
+	up_date = models.DateTimeField("Date Updated", auto_now=True)
 	categories = models.ManyToManyField(Category, blank=True, null=True)
 	tags = models.ManyToManyField(Tag, blank=True, null=True)
 
